@@ -16,8 +16,54 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="d-flex justify-content-between align-items-center">
+        <input type="checkbox" name="" id="menu">
+        <div class="left-side d-flex align-items-center gap-4">
+            <label for="menu">
+                <span>
+                    <i class="fa-solid fa-bars open"></i>
+                </span>
+            </label>
+            <a href="./index.html">
+                <img src="./public/images/main-logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="right-side d-flex gap-5">
+            <nav class="d-flex gap-3 align-items-center">
+                <label for="menu">
+                    <span>
+                        <i class="fa-solid fa-xmark close"></i>
+                    </span>
+                </label>
+                <a href="#" class="text-uppercase text-secondary-emphasis fs-6">Home</a>
+                <a href="#" class="text-uppercase text-secondary-emphasis fs-6">services</a>
+                <a href="#" class="text-uppercase text-secondary-emphasis fs-6">products</a>
+                <a href="#" class="text-uppercase text-secondary-emphasis fs-6">watches</a>
+                <a href="#" class="text-uppercase text-secondary-emphasis fs-6">sale</a>
+                <a href="#" class="text-uppercase text-secondary-emphasis fs-6">blog</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      page
+                    </a>
+                    <ul class="dropdown-menu w-25">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-flex align-items-center gap-3">
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-user"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+            </div>
+        </div>
     </header>
     <main>
 

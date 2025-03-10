@@ -1,5 +1,55 @@
 header{
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    margin: 2vh auto;
+    height: max-content;
+    width: calc( 100% - 7vw);
+    .left-side>a>img , .right-side>nav>a , nav>div>a , .right-side>div>span>i{
+        transition: 0.5s;
+    }
+    .left-side>a>img:hover{
+        scale: 105%;
+    }
+    .right-side>nav>a:hover , nav>div>a:hover , .right-side>div>span>i:hover{
+        color: rgb(75, 192, 224) !important;
+        cursor: pointer;
+    }
+    #menu , .close , .open {
+        display: none !important;
+    }
+    .close{
+        color: white !important;
+    }
+    
+}
+
+@media (max-width: 480px){
+    span > .open , span > .close{
+        display: block !important;
+    }
+    span > .close{
+        position: absolute;
+        top: 3vh;
+        right: 5vw;
+    }
+    nav{
+        position: fixed;
+        left: -200%;
+        top: 0;
+        background-color: black;
+        flex-direction: column;
+        gap: 10vh;
+        transition: 0.5s;
+        height: 100%;
+        width: 70%;
+        padding-top: 10vh !important;
+    }
+    #menu:checked ~ .right-side > nav{
+        left: 0;
+    }
+    nav > a{
+        color: white !important;
+    }
+    .dropdown-menu, .select2-drop{
+        min-width: none !important;
+    }
+    
 }
