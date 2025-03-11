@@ -45,8 +45,11 @@ header{
     #menu:checked ~ .right-side > nav{
         left: 0;
     }
-    nav > a{
+    .right-side > nav > a , nav > div > a{
         color: white !important;
+    }
+    .right-side > nav > div > ul{
+        min-width: 40vw !important;
     }
     .dropdown-menu, .select2-drop{
         min-width: none !important;

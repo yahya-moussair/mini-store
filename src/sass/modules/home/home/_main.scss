@@ -1,0 +1,43 @@
+*{
+    margin: 0 ;
+    padding: 0 !important;
+    font-family: "Roboto" ;
+}
+main{
+ 
+    .containere{
+        background-color: #ecf1f3 !important;
+        height: 70vh !important;
+        div{
+            width: 50%;
+        }
+            img{
+                width: 75% !important;
+            }
+    }
+    .car-button{
+        width: 20vw;
+        height: 15vh;   
+    }
+}
+@media (max-width: 480px){
+    .containere > div >h1 {
+        font-size: 2.5em !important;
+    }
+    .containere{
+        flex-direction: column-reverse;
+        padding-bottom: 5vh !important;
+        div{
+            width:  100% !important;
+            align-items: center !important;
+            text-align: center;
+            h1{
+                font-size: 2em !important;
+                font-weight: bold;
+            }
+            button{
+                width: 50% !important;
+            }
+        }
+    }
+}

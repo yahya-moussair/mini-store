@@ -11890,11 +11890,56 @@ header .close {
   #menu:checked ~ .right-side > nav {
     left: 0;
   }
-  nav > a {
+  .right-side > nav > a, nav > div > a {
     color: white !important;
+  }
+  .right-side > nav > div > ul {
+    min-width: 40vw !important;
   }
   .dropdown-menu, .select2-drop {
     min-width: none !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0 !important;
+  font-family: "Roboto";
+}
+
+main .containere {
+  background-color: #ecf1f3 !important;
+  height: 70vh !important;
+}
+main .containere div {
+  width: 50%;
+}
+main .containere img {
+  width: 75% !important;
+}
+main .car-button {
+  width: 20vw;
+  height: 15vh;
+}
+
+@media (max-width: 480px) {
+  .containere > div > h1, .containere > div > .h1 {
+    font-size: 2.5em !important;
+  }
+  .containere {
+    flex-direction: column-reverse;
+    padding-bottom: 5vh !important;
+  }
+  .containere div {
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center;
+  }
+  .containere div h1, .containere div .h1 {
+    font-size: 2em !important;
+    font-weight: bold;
+  }
+  .containere div button {
+    width: 50% !important;
   }
 }
 
