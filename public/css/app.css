@@ -11963,5 +11963,23 @@ main .car-2-button {
     font-size: 20px !important;
   }
 }
+footer {
+  background: none !important;
+}
+footer section div form input, footer section div form button {
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  footer section .form-div {
+    width: 100% !important;
+  }
+  footer section .form-div form {
+    width: 100% !important;
+  }
+  footer section .form-div form input, footer section .form-div form button {
+    width: 100% !important;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

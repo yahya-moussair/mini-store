@@ -1,0 +1,27 @@
+footer{
+    background: none !important;
+    section{
+        div{
+            form{
+                input , button {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    footer{
+        section{
+            .form-div{
+                width: 100% !important;
+                form{
+                    width: 100% !important;
+                    input , button{
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+}
