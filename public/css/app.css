@@ -11884,7 +11884,7 @@ header .close {
     gap: 10vh;
     transition: 0.5s;
     height: 100% !important;
-    z-index: 1 !important;
+    z-index: 400 !important;
     width: 70%;
     padding-top: 10vh !important;
   }
@@ -11907,6 +11907,9 @@ header .close {
   font-family: "Roboto";
 }
 
+main .carousel {
+  z-index: -400 !important;
+}
 main .containere {
   background-color: #ecf1f3 !important;
   height: 70vh !important;

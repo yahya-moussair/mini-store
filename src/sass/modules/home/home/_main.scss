@@ -4,6 +4,9 @@
     font-family: "Roboto" ;
 }
 main{
+    .carousel{
+        z-index: -400 !important;
+    }
     .containere {
         background-color: #ecf1f3 !important;
         height: 70vh !important;
