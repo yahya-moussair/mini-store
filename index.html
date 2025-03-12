@@ -70,12 +70,12 @@
         <section class="carousel">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
-                    <button type="button" class="slide-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" class="slide-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" class="slide-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    <button type="button" class="slide-button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" class="slide-button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" class="slide-button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -331,19 +331,97 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="d-flex flex-column gap-5">
         <section class="container d-lg-flex align-items-end py-5 px-5 mt-3 bg-black justify-content-between ">
             <div class="d-flex flex-column gap-3">
                 <h2 class="m-0 text-uppercase fw-normal fs-1 text-light">subscribe us now</h2>
-                <p class="m-0 text-capitalize opacity-75 fs-6 text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, aliquam.</p>
+                <p class="m-0 text-capitalize opacity-75 fs-6 text-light">Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Quos, aliquam.</p>
             </div>
             <div class="d-flex align-items-center w-50 justify-content-end form-div pt-3">
                 <form action="" class="w-100 d-lg-flex ">
-                    <input class="py-3 w-75 ps-2 rounded-2 fs-6 text-capitalize" type="email" placeholder="Your email adress here" required>
+                    <input class="py-3 w-75 ps-2 rounded-2 fs-6 text-capitalize" type="email"
+                        placeholder="Your email adress here" required>
                     <button class="py-3 w-25 rounded-2 fs-6 text-uppercase bg-primary" type="submit">subscribe</button>
                 </form>
             </div>
         </section>
+        <section class="footer-menu container d-lg-flex justify-content-lg-between align-items-center">
+            <div class="footer-div d-flex flex-column gap-2 w-25 pb-md-5">
+                <a href="./index.html" class="text-start">
+                    <img src="./public/images/main-logo.png" class="w-50" alt="">
+                </a>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ad nam quidem dolorum animi culpa
+                    eaque ex consequuntur eveniet expedita.</p>
+                <div class="d-flex justify-content-between w-75">
+                    <a href="">
+                        <i class="fa-brands fa-facebook fs-4 pointer-event"></i>
+                    </a><a href="">
+                        <i class="fa-brands fa-instagram fs-4 pointer-event"></i>
+                    </a><a href="">
+                        <i class="fa-brands fa-twitter fs-4 pointer-event"></i>
+                    </a><a href="">
+                        <i class="fa-brands fa-linkedin fs-4 pointer-event"></i>
+                    </a><a href="">
+                        <i class="fa-brands fa-youtube fs-4 pointer-event"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-div d-flex flex-column gap-3 w-25 pb-md-5">
+                <h3 class="m-0 text-uppercase text-black fw-normal fs-3">quick links</h3>
+                <div class="d-flex flex-column gap-2 ps-3">
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        home
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        about
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        shop
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        blog
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        contact
+                    </a>
+                </div>
+            </div>
+            <div class="footer-div d-flex flex-column gap-2 w-25 pb-md-5">
+                <h3 class="m-0 text-uppercase text-black fw-normal fs-3">help & info help</h3>
+                <div class="d-flex flex-column gap-2 ps-3">
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        track your order
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        return policies
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        shipping + delivery
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        contact us
+                    </a>
+                    <a class="text-uppercase fs-6 text-black fw-normal" href="">
+                        faqs
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-3 w-25 pb-md-5 justify-content-start">
+                <h3 class="m-0 text-uppercase text-black fw-normal fs-3">contact us</h3>
+                <div class="d-flex flex-column gap-1 ps-3">
+                    <p class="opacity-50 text-black text-capitalize m-0">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="fw-bold text-black m-0">yourmain@gmail.com</p>
+                </div>
+                <div class="d-flex flex-column gap-1 ps-3">
+                    <p class="opacity-50 text-black text-capitalize m-0">Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="fw-bold text-black m-0">+212 45783290</p>
+                </div>
+            </div>
+
+
+        </section>
+
     </footer>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

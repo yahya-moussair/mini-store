@@ -11983,6 +11983,20 @@ footer section div form input, footer section div form button {
   footer section .form-div form input, footer section .form-div form button {
     width: 100% !important;
   }
+  footer .footer-menu div {
+    width: 100% !important;
+    padding: 2vh 5vw !important;
+    text-align: center !important;
+    position: relative;
+  }
+  footer .footer-menu .footer-div::before {
+    content: "";
+    position: absolute;
+    bottom: 1vh !important;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
