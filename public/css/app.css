@@ -11883,7 +11883,8 @@ header .close {
     flex-direction: column;
     gap: 10vh;
     transition: 0.5s;
-    height: 100%;
+    height: 100% !important;
+    z-index: 1 !important;
     width: 70%;
     padding-top: 10vh !important;
   }
@@ -11920,6 +11921,9 @@ main .car-button {
   width: 20vw;
   height: 15vh;
 }
+main .new-year {
+  background-color: rgb(236, 241, 243);
+}
 
 @media (max-width: 480px) {
   .containere > div > h1, .containere > div > .h1 {
@@ -11939,6 +11943,12 @@ main .car-button {
     font-weight: bold;
   }
   .containere div button {
+    width: 50% !important;
+  }
+  .new-year div {
+    width: 100% !important;
+  }
+  .new-year div button {
     width: 50% !important;
   }
 }

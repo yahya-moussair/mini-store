@@ -19,6 +19,9 @@ main{
         width: 20vw;
         height: 15vh;   
     }
+    .new-year{
+        background-color: rgb(236, 241, 243) ;
+    }
 }
 @media (max-width: 480px){
     .containere > div >h1 {
@@ -40,7 +43,13 @@ main{
             }
         }
     }
-    #mobile-product-title{
-        font-size: 5em !important;
+    .new-year{
+        div{
+            width: 100% !important;
+            button{
+                width: 50% !important;
+            }
+        }
+
     }
 }
