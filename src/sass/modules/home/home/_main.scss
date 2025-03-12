@@ -4,8 +4,7 @@
     font-family: "Roboto" ;
 }
 main{
- 
-    .containere{
+    .containere {
         background-color: #ecf1f3 !important;
         height: 70vh !important;
         div{
@@ -21,6 +20,14 @@ main{
     }
     .new-year{
         background-color: rgb(236, 241, 243) ;
+    }
+    .items-car {
+        background-color: #ecf1f3 !important;
+        height: 40vh !important;
+    }
+    .car-2-button{
+        width: 20vw;
+        height: 10vh;
     }
 }
 @media (max-width: 480px){
@@ -50,6 +57,12 @@ main{
                 width: 50% !important;
             }
         }
-
+    }
+    .items-car {
+        div{
+            h3{
+                font-size: 20px !important;
+            }
+        }
     }
 }
