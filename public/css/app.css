@@ -11979,6 +11979,7 @@ footer section div form input, footer section div form button {
   }
   footer section .form-div form {
     width: 100% !important;
+    flex-direction: column;
   }
   footer section .form-div form input, footer section .form-div form button {
     width: 100% !important;
